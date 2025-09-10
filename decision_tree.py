@@ -11,7 +11,7 @@ def type_text(text, delay=0.02, pause=0.6):
         print()  # Move to next line after printing the line
         time.sleep(pause)  # Wait after each line
 
-# yeah chatgpt wrote all that above because i dont know how and i thought it would be cool, all it does is make the text appear as if its being typed out and the new lines have a slight pause in between each one
+# yeah AI wrote all that above because i dont know how and i thought it would be cool, all it does is make the text appear as if its being typed out and the new lines have a slight pause in between each one
 
 
 while True:
@@ -41,7 +41,7 @@ while True:
                 else:
                     type_text("Please input 1 or 2")
             if water == "1":
-                type_text("You walk forward. \nSuddenly, a banana peel appears in front of you. \nThe world seems to come to a halt as your foot slips. \nIn terror, you look around for something to grab onto. \nThe counter comes into view. What will you do? \n")
+                type_text("You walk forward. \nSuddenly, a banana appears in front of you. \nThe world seems to come to a halt as your foot slips. \nIn terror, you look around for something to grab onto. \nThe counter comes into view. What will you do? \n")
                 while True:
                     counter = input("1. Grab onto the counter\n2. Do nothing and accept your fate\n")
                     if counter == "1" or counter == "2":
@@ -52,7 +52,7 @@ while True:
                     type_text("You grab onto the counter. \nYou feel a sharp pain in your hand as you grab onto the counter. \nYou look down, and see that you have grabbed onto a butter knife. \nYou are now bleeding out on the floor, as the knife somehow hit a major artery. You take a second to contemplate how there could be a major artery in your hand right before falling into eternal rest. Your face looks stupid.")
                     continue
                 elif counter == "2":
-                    type_text("You do nothing. \nYou fall over.\nYou hit the floor, get up and grab the glass of water. \nYou drink the water and go back to bed.\nYou win.")
+                    type_text("You do nothing. \nYou fall over.\n \n \n \n \n \n \nYou hit the floor, get up and grab the glass of water. \nYou drink the water and go back to bed.\nYou win.")
                     continue
             elif water == "2":
                 type_text("You just kinda stand there. \nAfter doing that for a while, you wonder if the doctor was lying about the schizophrenia results. \nAfterwards, you go over and grab the glass of water. \nYou lift the glass of water to your mouth, but do not drink it. \nYou put the water glass back down. \nYou go back to your room and see that nothing has changed. You go back to bed.")
@@ -77,10 +77,10 @@ while True:
                 else:
                     type_text("Please input 1 or 2")
             if dog2 == "1":
-                type_text("you move the dogs head off of you. \nYou get up, try to walk over to your door, and trip over the dogs tail. \nYou curse before you can think and SHE comes. \nYou die.")
+                type_text("You move the dogs head off of you. \nYou get up, try to walk over to your door, and trip over the dogs tail. \nYou curse before you can think.\nSHE comes. \nYou die.")
                 continue
             elif dog2 == "2":
-                type_text("You decide to just have a sleepless night. \n In the morning, you are so extremely tired that you accidentally slip on a green shell. \nYou are now in eternal rest.")
+                type_text("You decide to just have a sleepless night. \nIn the morning, you are so extremely tired that you fall down the stairs and hit your head. \nYou are now in eternal rest.")
                 continue
             elif dog2 == "3":
                 type_text("Crazy? I Was Crazy Once. They Locked Me In A Room. A Rubber Room. A Rubber Room With Rats. And Rats Make Me Crazy\n" * 50)
